@@ -69,7 +69,9 @@ button:hover{
 }
   
 
-@media screen and (min-width:280px) and (min-height:680px) {
+
+
+@media screen and (min-width:200px) {
    
     
     .inputs{
@@ -83,39 +85,6 @@ button:hover{
         left: 50%;
         transform: translate(-50%, -50%);
         width: 5rem;
-        height: 45%;
-    
-    }
-    button{
-        background-color: rgba(196, 193, 193, 0.801);
-        height: 7vh;
-        width: 2.2rem;
-        border-radius: 25px;
-        border:0px solid black
-    }
-    #button0 {
-        width: 4.7rem;
-      }
-      .ac{
-        width: 4.6rem
-    }
-    
-}
-
-@media screen and (min-width:300px) {
-   
-    
-    .inputs{
-        background-color: rgba(214, 203, 187, 0.432);
-        width:90%;
-        
-    }
-    #prime{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 10rem;
         height: 45%;
     
     }
