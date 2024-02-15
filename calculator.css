@@ -1,13 +1,16 @@
 body{
-  background-color: black;  
+  background-color: black; 
+  width:500px;
 
 }
 div{
     border: 1px solid aqua;
     padding: 10px;
     border-radius: 5px;
+  display:flex;
 }
 .inputs{
+  
     background-color: rgba(214, 203, 187, 0.432);
     width:90%;
     border:0px solid black;
