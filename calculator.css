@@ -75,11 +75,12 @@ button:hover{
     .inputs{
         background-color: rgb(255, 0, 234);
         width:130px;
+        height:28px;
         
     }
     #prime{
         width: 35%;
-        height: 200px;
+        height: 190px;
     
     }
     button{
