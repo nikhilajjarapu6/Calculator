@@ -71,7 +71,7 @@ button:hover{
 
 
 
-/* @media screen and (min-width:200px) {
+@media screen and (max-width:200px) {
    
     
     .inputs{
@@ -102,7 +102,7 @@ button:hover{
         width: 4.6rem
     }
     
-} */
+}
 /*   @media screen and (max-width:580px) {
    
     
