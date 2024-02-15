@@ -83,9 +83,9 @@ button:hover{
     
     }
     button{
-        background-color: rgba(196, 193, 193, 0.801);
-        height: 68px;
-        width:50px;
+      background-color: rgba(196, 193, 193, 0.801);
+        height: 28px;
+        width:30px;
         border-radius: 25px;
         border:0px solid black
     }
