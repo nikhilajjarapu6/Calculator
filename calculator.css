@@ -79,7 +79,7 @@ button:hover{
     .inputs{
         background-color: rgb(43, 43, 43);
         width:160px;
-        height: 35px;
+        height: 30px;
        
         
     }
@@ -103,10 +103,39 @@ button:hover{
     }
     
 }
+@media only screen and (min-width: 400px) and (max-width: 1000px) {
+     #display {
+        color: orange
+    };
+    .inputs{
+        background-color: rgb(255, 255, 255);
+        width:130px;
+        height: 28px;;
+        
+    }
+    #prime{
+        width: 140px;
+        height: 190px;
+    
+    }
+    button{
+        background-color: rgba(196, 193, 193, 0.801);
+        height: 28px;
+        width:30px;
+        border-radius: 25px;
+        border:0px solid black
+    }
+    #button0 {
+        width: 65px;
+      }
+      .ac{
+        width: 65px;
+    }
+}
 
   
 
-@media only screen and (min-width: 400px) and (max-width: 1000px) {
+/* @media only screen and (min-width: 400px) and (max-width: 1000px) {
 
    #display {
         color: orange
@@ -136,7 +165,7 @@ button:hover{
       }
       .ac{
         width: 80px;
-    }
+    } */
 }
   
 /* @media only screen and (max-width:400px)  {
@@ -168,33 +197,7 @@ button:hover{
     
 }
 
-@media only screen and (min-width: 400px) and (max-width: 1000px) {
 
-    .inputs{
-        background-color: rgb(255, 0, 0);
-        width:130px;
-        height: 28px;;
-        
-    }
-    #prime{
-        width: 140px;
-        height: 190px;
-    
-    }
-    button{
-        background-color: rgba(196, 193, 193, 0.801);
-        height: 28px;
-        width:30px;
-        border-radius: 25px;
-        border:0px solid black
-    }
-    #button0 {
-        width: 65px;
-      }
-      .ac{
-        width: 65px;
-    }
-}
 
 
  */
