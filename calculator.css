@@ -74,26 +74,26 @@ button:hover{
     
     .inputs{
         background-color: rgb(255, 0, 234);
-        width:90%;
+        width:130px;
         
     }
     #prime{
-        width: 45%;
-        height: 240px;
+        width: 35%;
+        height: 200px;
     
     }
     button{
         background-color: rgba(196, 193, 193, 0.801);
-        height: 36px;
-        width:16px;
+        height: 28px;
+        width:30px;
         border-radius: 25px;
         border:0px solid black
     }
     #button0 {
-        width: 4.7rem;
+        width: 65px;
       }
       .ac{
-        width: 4.6rem
+        width: 65px;
     }
     
 }
