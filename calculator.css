@@ -83,7 +83,7 @@ button:hover{
     }
     #prime{
         width: 175px;
-        height: 270px;
+        height: 240px;
     
     }
     button{
@@ -105,9 +105,7 @@ button:hover{
     
 }
 @media only screen and (min-width: 400px) and (max-width: 1000px) {
-     #display{
-        color: orange
-    };
+     
     .inputs{
         background-color: rgb(255, 255, 255);
         width:130px;
@@ -116,7 +114,7 @@ button:hover{
     }
     #prime{
         width: 140px;
-        height: 190px;
+        height: 240px;
     
     }
     button{
@@ -131,6 +129,9 @@ button:hover{
       }
       .ac{
         width: 65px;
+    }
+  #display{
+        color: orange;
     }
 }
 
