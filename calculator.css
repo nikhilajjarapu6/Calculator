@@ -72,9 +72,7 @@ button:hover{
 
 @media only screen and (max-width:400px) {
 
-    #display {
-        color: rgb(255, 255, 255)
-    };
+   
     
     .inputs{
         background-color: rgb(43, 43, 43);
@@ -101,6 +99,9 @@ button:hover{
       .ac{
         width: 80px;
     }
+   #display{
+        color: rgb(255, 255, 255)
+    };
     
 }
 @media only screen and (min-width: 400px) and (max-width: 1000px) {
