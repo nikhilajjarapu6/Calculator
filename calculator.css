@@ -70,7 +70,7 @@ button:hover{
     color: orange;
 }
   
-@media only screen and (max-width:1080px)  {
+@media only screen and (max-width:400px)  {
     
     .inputs{
         background-color: rgb(255, 0, 234);
@@ -79,13 +79,13 @@ button:hover{
     }
     #prime{
         width: 45%;
-        height: 45%;
+        height: 240px;
     
     }
     button{
         background-color: rgba(196, 193, 193, 0.801);
-        height: auto;
-        width: 2.2rem;
+        height: 36px;
+        width:16px;
         border-radius: 25px;
         border:0px solid black
     }
