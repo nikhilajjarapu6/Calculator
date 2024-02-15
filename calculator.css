@@ -69,8 +69,77 @@ button:hover{
 #display{
     color: orange;
 }
+
+@media only screen and (max-width:400px) {
+
+    #display {
+        color: rgb(255, 255, 255)
+    };
+    
+    .inputs{
+        background-color: rgb(43, 43, 43);
+        width:160px;
+        height: 35px;
+       
+        
+    }
+    #prime{
+        width: 175px;
+        height: 240px;
+    
+    }
+    button{
+        background-color: rgba(196, 193, 193, 0.801);
+        height: 36px;
+        width:38px;
+        border-radius: 25px;
+        border:0px solid black
+    }
+    #button0 {
+        width: 80px;
+      }
+      .ac{
+        width: 80px;
+    }
+    
+}
+
   
-@media only screen and (max-width:400px)  {
+
+@media only screen and (min-width: 400px) and (max-width: 1000px) {
+
+   #display {
+        color: orange
+    };
+    
+    .inputs{
+        background-color: rgb(255, 255, 255);
+        width:160px;
+        height: 35px;
+       
+        
+    }
+    #prime{
+        width: 175px;
+        height: 240px;
+    
+    }
+    button{
+        background-color: rgba(196, 193, 193, 0.801);
+        height: 36px;
+        width:38px;
+        border-radius: 25px;
+        border:0px solid black
+    }
+    #button0 {
+        width: 80px;
+      }
+      .ac{
+        width: 80px;
+    }
+}
+  
+/* @media only screen and (max-width:400px)  {
     
     .inputs{
         background-color: rgb(255, 0, 234);
@@ -128,41 +197,4 @@ button:hover{
 }
 
 
-
-
-/*   @media screen and (max-width:580px) {
-   
-    
-    .inputs{
-        background-color: rgba(214, 203, 187, 0.432);
-        width:90%;
-        
-    }
-    #prime{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 10rem;
-        height: 45%;
-    
-    }
-    button{
-        background-color: rgba(196, 193, 193, 0.801);
-        height: 7vh;
-        width: 2.2rem;
-        border-radius: 25px;
-        border:0px solid black
-    }
-    #button0 {
-        width: 4.7rem;
-      }
-      .ac{
-        width: 4.6rem
-    }
-    
-}
-  
-  
-  
  */
