@@ -70,7 +70,7 @@ button:hover{
     color: orange;
 }
   
-@media only screen and (max-width:375px)  {
+@media only screen and (max-width:1080px)  {
     
     .inputs{
         background-color: rgb(255, 0, 234);
