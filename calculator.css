@@ -79,7 +79,7 @@ button:hover{
         
     }
     #prime{
-        width: 35%;
+        width: 140px;
         height: 190px;
     
     }
@@ -99,21 +99,21 @@ button:hover{
     
 }
 
-@media only screen and (max-width:800px)  {
-    
+@media only screen and (min-width: 400px) and (max-width: 1000px) {
+
     .inputs{
-        background-color: rgb(255, 0, 234);
+        background-color: rgb(255, 0, 0);
         width:130px;
-        height:28px;
+        height: 28px;;
         
     }
     #prime{
-        width: 35%;
+        width: 140px;
         height: 190px;
     
     }
     button{
-      background-color: rgba(196, 193, 193, 0.801);
+        background-color: rgba(196, 193, 193, 0.801);
         height: 28px;
         width:30px;
         border-radius: 25px;
@@ -125,8 +125,9 @@ button:hover{
       .ac{
         width: 65px;
     }
-    
 }
+
+
 
 
 /*   @media screen and (max-width:580px) {
